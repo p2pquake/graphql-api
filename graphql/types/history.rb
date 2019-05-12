@@ -12,5 +12,6 @@ module Types
     field :code, Types::Code, null: false
 
     field :areas, [Types::AreaPeer], null: true
+    field :area, Integer, null: true
   end
 end
